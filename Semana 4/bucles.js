@@ -14,3 +14,5 @@ while (contador < frutas.length) {
 console.log("El contador es = " + contador);
 contador++;
 }
+
+console.log("prueba")
