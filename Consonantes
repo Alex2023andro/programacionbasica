@@ -1,0 +1,21 @@
+const CONSONANTES = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Y','Z']
+
+
+function ContarVocales(texto, ARREGLO) {
+let letras = new Array;
+
+for (let i = 0; i < texto.length; i++) {
+ const letra = texto[i]
+ for (let i = 0; i < VOCALES.length; i++) {
+    const vocal = VOCALES[i];
+    if (letra == vocal) {
+        vocalesTexto.push(vocal);
+        break;
+    }
+ }
+}
+return console.log(vocalesTexto);
+}
+
+let texto = 'nuevos'
+ContarVocales(texto);
