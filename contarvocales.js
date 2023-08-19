@@ -19,4 +19,4 @@ return console.log(LetrasArray);
 }
 
 let texto = 'actividades'
-ContarLetras(texto, VOCALES);
+ContarLetras(texto, CONSONANTES);

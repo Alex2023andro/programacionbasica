@@ -22,6 +22,7 @@ function sumaNumerosPares(numPar) {
             tipo = numeros.impares;
         }
         tipo.array.push (i);
+        tipo.suma += i 
     }
     return numeros; 
     } 
